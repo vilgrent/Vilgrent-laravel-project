@@ -1,0 +1,73 @@
+.carousel-caption {
+    position: absolute;
+     right: 0%; 
+    bottom: 0px;
+    left: 0%; 
+    z-index: 10;
+   width: 0px;
+   align-items: center
+    padding-bottom: 0px;
+    color: #fff;
+    text-align: left; 
+    background: #2A2D30;
+}
+.carousel-caption .h3{
+  font-size: 12px;
+}
+/* This only changes this particular animation duration */
+.animate__animated.animate__bounce {
+  --animate-duration: 2s;
+}
+
+/* This changes all the animations globally */
+:root {
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
+}
+
+.banner-icons{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+.carousel-indicators li{
+    height: 0.8rem;
+    width: .8rem;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.img
+{
+  animation:fadeInRight; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; 
+}
+
+.img1
+{
+  animation:fadeInRight; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; 
+}
+.img2
+{
+  animation:fadeInRight; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; 
+}
+
+.img3
+{
+  animation:fadeInRight; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; 
+}
+
+.img4
+{
+  animation:fadeInRight; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; 
+}
